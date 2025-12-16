@@ -1,0 +1,86 @@
+================================================================================
+ASKGARY-CasePortal-Unified_2025-Dec-16 - MANIFEST
+================================================================================
+
+PROJECT: 1-800-ASK-GARY Case Management Portal™
+VERSION: Unified Landing + Desktop + Mobile
+DATE: December 16, 2025
+DEVELOPER: Noetic Dharma Group, LLC
+
+================================================================================
+ARCHITECTURE
+================================================================================
+
+ONE DOMAIN, THREE EXPERIENCES:
+
+  my1800askgarycase.com/          → Landing Page (Choose Device)
+  my1800askgarycase.com/desktop   → Widescreen Investor Presentation
+  my1800askgarycase.com/mobile    → Phone-Optimized Consumer Intake
+
+================================================================================
+LANDING PAGE FEATURES
+================================================================================
+
+✓ 1-800-ASK-GARY branding with logo
+✓ "Voice-First Accident Onboarding Platform" headline
+✓ Two prominent buttons: Desktop | Mobile
+✓ NOETIC DHARMA GROUP™ credit and branding
+✓ Responsive design (works on any screen size)
+✓ Professional hover effects on buttons
+
+================================================================================
+DESKTOP VERSION (/desktop)
+================================================================================
+
+✓ Large fonts optimized for big screens
+✓ 4-column layouts for content
+✓ Side-by-side audio interview layout
+✓ Full footer with NDG branding
+✓ Keyboard navigation (arrows + spacebar)
+✓ Best for: Laptops, desktops, boardrooms
+
+================================================================================
+MOBILE VERSION (/mobile)
+================================================================================
+
+✓ Uses 100dvh for perfect iPhone/Android fit
+✓ Compact single-column layouts
+✓ No scrolling required on any slide
+✓ Footer only on first/last slides
+✓ Best for: Consumer intake via text link
+
+================================================================================
+DEPLOYMENT
+================================================================================
+
+DOMAIN: my1800askgarycase.com
+PIN CODE: STOPAUTISMNOW
+HOSTING: Vercel (connected to GitHub)
+
+TO DEPLOY:
+1. Create GitHub repo: askgary-case-portal
+2. Upload contents of askgary-unified/ folder
+3. Connect to Vercel
+4. Point domain via GoDaddy DNS
+
+================================================================================
+CONTENTS
+================================================================================
+
+/
+├── package.json (with react-router-dom)
+├── vite.config.js
+├── vercel.json (SPA routing)
+├── index.html
+├── _manifest.txt
+├── public/
+│   ├── logo.jpg
+│   └── audio/ (q01.mp3 - q19.mp3)
+└── src/
+    ├── main.jsx (BrowserRouter setup)
+    └── App.jsx (Landing + Desktop + Mobile)
+
+================================================================================
+CONFIDENTIAL & PROPRIETARY
+© 2025 Noetic Dharma Group, LLC | www.noeticdharma.com
+================================================================================
